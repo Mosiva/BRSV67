@@ -1,28 +1,31 @@
 {
   "files": {
     "main.css": "/BRSV67/static/css/main.afce084a.chunk.css",
-    "main.js": "/BRSV67/static/js/main.41d59f74.chunk.js",
-    "main.js.map": "/BRSV67/static/js/main.41d59f74.chunk.js.map",
-    "runtime-main.js": "/BRSV67/static/js/runtime-main.cbc1aa73.js",
-    "runtime-main.js.map": "/BRSV67/static/js/runtime-main.cbc1aa73.js.map",
+    "main.js": "/BRSV67/static/js/main.c8004893.chunk.js",
+    "main.js.map": "/BRSV67/static/js/main.c8004893.chunk.js.map",
+    "runtime-main.js": "/BRSV67/static/js/runtime-main.a83bd638.js",
+    "runtime-main.js.map": "/BRSV67/static/js/runtime-main.a83bd638.js.map",
     "static/css/2.1e883d86.chunk.css": "/BRSV67/static/css/2.1e883d86.chunk.css",
-    "static/js/2.e1c923f3.chunk.js": "/BRSV67/static/js/2.e1c923f3.chunk.js",
-    "static/js/2.e1c923f3.chunk.js.map": "/BRSV67/static/js/2.e1c923f3.chunk.js.map",
-    "static/js/3.a411dea9.chunk.js": "/BRSV67/static/js/3.a411dea9.chunk.js",
-    "static/js/3.a411dea9.chunk.js.map": "/BRSV67/static/js/3.a411dea9.chunk.js.map",
+    "static/js/2.40224c10.chunk.js": "/BRSV67/static/js/2.40224c10.chunk.js",
+    "static/js/2.40224c10.chunk.js.map": "/BRSV67/static/js/2.40224c10.chunk.js.map",
+    "static/js/3.a28e8356.chunk.js": "/BRSV67/static/js/3.a28e8356.chunk.js",
+    "static/js/3.a28e8356.chunk.js.map": "/BRSV67/static/js/3.a28e8356.chunk.js.map",
     "index.html": "/BRSV67/index.html",
     "static/css/2.1e883d86.chunk.css.map": "/BRSV67/static/css/2.1e883d86.chunk.css.map",
     "static/css/main.afce084a.chunk.css.map": "/BRSV67/static/css/main.afce084a.chunk.css.map",
-    "static/js/2.e1c923f3.chunk.js.LICENSE.txt": "/BRSV67/static/js/2.e1c923f3.chunk.js.LICENSE.txt",
+    "static/js/2.40224c10.chunk.js.LICENSE.txt": "/BRSV67/static/js/2.40224c10.chunk.js.LICENSE.txt",
+    "static/media/BDdirection.659410b3.png": "/BRSV67/static/media/BDdirection.659410b3.png",
+    "static/media/Ddirection.32aa6641.jpg": "/BRSV67/static/media/Ddirection.32aa6641.jpg",
+    "static/media/FRdirection.e0483dd0.png": "/BRSV67/static/media/FRdirection.e0483dd0.png",
     "static/media/MainPageBackground.053b3904.png": "/BRSV67/static/media/MainPageBackground.053b3904.png",
     "static/media/mdb.css": "/BRSV67/static/media/arrow_right.0897f985.svg",
     "static/media/all.min.css": "/BRSV67/static/media/fa-solid-900.efbd5d20.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.cbc1aa73.js",
+    "static/js/runtime-main.a83bd638.js",
     "static/css/2.1e883d86.chunk.css",
-    "static/js/2.e1c923f3.chunk.js",
+    "static/js/2.40224c10.chunk.js",
     "static/css/main.afce084a.chunk.css",
-    "static/js/main.41d59f74.chunk.js"
+    "static/js/main.c8004893.chunk.js"
   ]
 }
