@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/BRSV67/static/css/main.83cefc97.chunk.css",
-    "main.js": "/BRSV67/static/js/main.6c7bf994.chunk.js",
-    "main.js.map": "/BRSV67/static/js/main.6c7bf994.chunk.js.map",
-    "runtime-main.js": "/BRSV67/static/js/runtime-main.62708af9.js",
-    "runtime-main.js.map": "/BRSV67/static/js/runtime-main.62708af9.js.map",
+    "main.js": "/BRSV67/static/js/main.2804d2e6.chunk.js",
+    "main.js.map": "/BRSV67/static/js/main.2804d2e6.chunk.js.map",
+    "runtime-main.js": "/BRSV67/static/js/runtime-main.6d15b86f.js",
+    "runtime-main.js.map": "/BRSV67/static/js/runtime-main.6d15b86f.js.map",
     "static/css/2.1e883d86.chunk.css": "/BRSV67/static/css/2.1e883d86.chunk.css",
-    "static/js/2.406d9f7d.chunk.js": "/BRSV67/static/js/2.406d9f7d.chunk.js",
-    "static/js/2.406d9f7d.chunk.js.map": "/BRSV67/static/js/2.406d9f7d.chunk.js.map",
-    "static/js/3.7c133e50.chunk.js": "/BRSV67/static/js/3.7c133e50.chunk.js",
-    "static/js/3.7c133e50.chunk.js.map": "/BRSV67/static/js/3.7c133e50.chunk.js.map",
+    "static/js/2.9b1c87eb.chunk.js": "/BRSV67/static/js/2.9b1c87eb.chunk.js",
+    "static/js/2.9b1c87eb.chunk.js.map": "/BRSV67/static/js/2.9b1c87eb.chunk.js.map",
+    "static/js/3.5bd47876.chunk.js": "/BRSV67/static/js/3.5bd47876.chunk.js",
+    "static/js/3.5bd47876.chunk.js.map": "/BRSV67/static/js/3.5bd47876.chunk.js.map",
     "index.html": "/BRSV67/index.html",
     "static/css/2.1e883d86.chunk.css.map": "/BRSV67/static/css/2.1e883d86.chunk.css.map",
     "static/css/main.83cefc97.chunk.css.map": "/BRSV67/static/css/main.83cefc97.chunk.css.map",
-    "static/js/2.406d9f7d.chunk.js.LICENSE.txt": "/BRSV67/static/js/2.406d9f7d.chunk.js.LICENSE.txt",
+    "static/js/2.9b1c87eb.chunk.js.LICENSE.txt": "/BRSV67/static/js/2.9b1c87eb.chunk.js.LICENSE.txt",
     "static/media/BDdirection.659410b3.png": "/BRSV67/static/media/BDdirection.659410b3.png",
     "static/media/Ddirection.32aa6641.jpg": "/BRSV67/static/media/Ddirection.32aa6641.jpg",
     "static/media/FRdirection.e0483dd0.png": "/BRSV67/static/media/FRdirection.e0483dd0.png",
+    "static/media/HighPromax.f5d80210.jpg": "/BRSV67/static/media/HighPromax.f5d80210.jpg",
     "static/media/MainPageBackground.053b3904.png": "/BRSV67/static/media/MainPageBackground.053b3904.png",
     "static/media/SAdirection.c344c7ec.jpg": "/BRSV67/static/media/SAdirection.c344c7ec.jpg",
     "static/media/Samuraimaskking.ba060fbc.jpg": "/BRSV67/static/media/Samuraimaskking.ba060fbc.jpg",
@@ -25,10 +26,10 @@
     "static/media/all.min.css": "/BRSV67/static/media/fa-solid-900.efbd5d20.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.62708af9.js",
+    "static/js/runtime-main.6d15b86f.js",
     "static/css/2.1e883d86.chunk.css",
-    "static/js/2.406d9f7d.chunk.js",
+    "static/js/2.9b1c87eb.chunk.js",
     "static/css/main.83cefc97.chunk.css",
-    "static/js/main.6c7bf994.chunk.js"
+    "static/js/main.2804d2e6.chunk.js"
   ]
 }
