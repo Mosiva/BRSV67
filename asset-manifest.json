@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BRSV67/static/css/main.83cefc97.chunk.css",
-    "main.js": "/BRSV67/static/js/main.2ffb9416.chunk.js",
-    "main.js.map": "/BRSV67/static/js/main.2ffb9416.chunk.js.map",
+    "main.js": "/BRSV67/static/js/main.92a95ada.chunk.js",
+    "main.js.map": "/BRSV67/static/js/main.92a95ada.chunk.js.map",
     "runtime-main.js": "/BRSV67/static/js/runtime-main.6d15b86f.js",
     "runtime-main.js.map": "/BRSV67/static/js/runtime-main.6d15b86f.js.map",
     "static/css/2.1e883d86.chunk.css": "/BRSV67/static/css/2.1e883d86.chunk.css",
@@ -19,6 +19,7 @@
     "static/media/FRdirection.e0483dd0.png": "/BRSV67/static/media/FRdirection.e0483dd0.png",
     "static/media/HighPromax.f5d80210.jpg": "/BRSV67/static/media/HighPromax.f5d80210.jpg",
     "static/media/MainPageBackground.053b3904.png": "/BRSV67/static/media/MainPageBackground.053b3904.png",
+    "static/media/Massking.5660f4ee.jpg": "/BRSV67/static/media/Massking.5660f4ee.jpg",
     "static/media/SAdirection.c344c7ec.jpg": "/BRSV67/static/media/SAdirection.c344c7ec.jpg",
     "static/media/Tdirection.a42d0205.png": "/BRSV67/static/media/Tdirection.a42d0205.png",
     "static/media/mdb.css": "/BRSV67/static/media/arrow_right.0897f985.svg",
@@ -29,6 +30,6 @@
     "static/css/2.1e883d86.chunk.css",
     "static/js/2.5ccb79ef.chunk.js",
     "static/css/main.83cefc97.chunk.css",
-    "static/js/main.2ffb9416.chunk.js"
+    "static/js/main.92a95ada.chunk.js"
   ]
 }
