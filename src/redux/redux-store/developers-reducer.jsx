@@ -10,7 +10,6 @@ let initialState = {
 };
 
 const developerReducer = (state = initialState, action) => {
-
     switch (action.type) {
         case SET_DEVELOPER_PROFILE: {
             return { ...state, developers: action.payload }
@@ -29,7 +28,6 @@ const instance = axios.create({
 
 export const getDevelopers = () => async dispatch => {
     try {
-
         const res = await instance.get()
         dispatch(setDevelopers(res.data))
     }

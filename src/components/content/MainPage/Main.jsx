@@ -2,6 +2,7 @@ import React from 'react';
 import { Jumbotron, Button } from 'react-bootstrap';
 import MainPageBackground from '../../../images/MainPageBackground.png';
 import '../../../App.css';
+import MainPModule from './MainPModule';
 
 function MainPage() {
     return (
@@ -12,9 +13,9 @@ function MainPage() {
                     Welcome to BRSV.
                 </p>
                 <p>
-                    <Button variant="primary">Click me</Button>
+                    <MainPModule />
                 </p>
-            </Jumbotron>
+                            </Jumbotron>
           
     )
 }

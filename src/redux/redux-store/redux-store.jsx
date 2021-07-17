@@ -3,7 +3,7 @@ import thunkMiddleware from "redux-thunk";
 import developerReducer from "./developers-reducer";
 
 let rootReducers = combineReducers({
-    developers: developerReducer
+    developersPage: developerReducer
 
 })
 

@@ -1,24 +1,24 @@
-import React, { Component } from 'react'
-import { connect } from 'react-redux'
+import React, { useEffect } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
 import { getDevelopers } from '../../../redux/redux-store/developers-reducer'
 import { Card, ListGroup, CardDeck } from 'react-bootstrap';
-import { getDevelopersReselect} from './Developer-selector';
+import { getDevelopersReselect } from './Developer-selector';
+
+export const DeveloperContainer = () => {
+
+  const developers = useSelector(getDevelopersReselect)
+  const dispatch = useDispatch();
+  
+
+  useEffect(() => { 
+    dispatch(getDevelopers()); 
+  }, [])
 
 
-
-class DeveloperContainer extends Component {
-  componentDidMount() {
-    this.props.getDevelopers()
-
-  }
-  render() {
-    const { developers } = this.props.developers
-    console.log(developers)
-
-
-    return (
-      <div>
-        <CardDeck>
+  return (
+    <div>
+      <CardDeck>
+  
           {developers.map(d =>
             <React.Fragment key={d.id}>
 
@@ -41,12 +41,7 @@ class DeveloperContainer extends Component {
 
             </React.Fragment>
           )}
-        </CardDeck>
-      </div>
-    )
-  }
+      </CardDeck>
+    </div>
+  )
 }
-
-const mapStateToProps = (state) => ({ developers: getDevelopersReselect(state)})
-
-export default connect(mapStateToProps, { getDevelopers })(DeveloperContainer)
