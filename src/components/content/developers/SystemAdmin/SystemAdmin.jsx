@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { getSysAdminDevelopers } from '../../../../redux/redux-store/developers-reducer'
+import { getSysAdminDevelopers } from '../../../../redux/developers-reducer'
 import { Card, ListGroup } from 'react-bootstrap';
-import { getDevelopersReselect } from '../Developer-selector';
+import { getDevelopersReselect } from '../../../../redux/Developer-selector';
 
 export const SystemAdminDeveloper = () => {
   const developers = useSelector(getDevelopersReselect)

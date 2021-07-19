@@ -1,6 +1,5 @@
-
-import axios from 'axios'
-import { DeveloperType } from '../../types/types';
+import { developersAPI } from '../API/developer-api';
+import { DeveloperType } from '../types/types';
 import { BaseThunkType, InferActionsTypes } from './redux-store'
 /* const DEVELOPERS_ERROR = 'DEVELOPERS_ERROR' */
 
@@ -25,16 +24,10 @@ export const actions = {
     setDevelopers: (developers: Array<DeveloperType>) => ({ type: 'BRSV/USERS/SET_developers', payload: developers } as const)
 }
 
-
-const instance = axios.create({
-    baseURL: `http://localhost:1337/`,
-});
-
-
 type ThunkType = BaseThunkType<ActionTypes>
 export const getDevelopers = (): ThunkType => async dispatch => {
     try { 
-        const res = await instance.get('brsvdevelopers')
+        const res = await developersAPI.getDevelopers()
         dispatch(actions.setDevelopers(res.data))
     } 
     catch (e) {
@@ -47,23 +40,23 @@ export const getDevelopers = (): ThunkType => async dispatch => {
 
 
 export const getFrontDevelopers = (): ThunkType => async dispatch => {
-    const res = await instance.get(`?direction=frontend`)
+    const res = await developersAPI.getFrontDevelopers()
     dispatch(actions.setDevelopers(res.data))
 }
 export const getBackDevelopers = (): ThunkType  => async dispatch => {
-    const res = await instance.get(`?direction=backend`)
+    const res = await developersAPI.getBackDevelopers()
     dispatch(actions.setDevelopers(res.data))
 }
 export const getTestDevelopers = (): ThunkType  => async dispatch => {
-    const res = await instance.get(`?direction=tester`)
+    const res = await developersAPI.getTestDevelopers()
     dispatch(actions.setDevelopers(res.data))
 }
 export const getSysAdminDevelopers = (): ThunkType  => async dispatch => {
-    const res = await instance.get(`?direction=systemadmin`)
+    const res = await developersAPI.getSysAdminDevelopers()
     dispatch(actions.setDevelopers(res.data))
 }
 export const getGrahpDevelopers = (): ThunkType  => async dispatch => {
-    const res = await instance.get(`?direction=graphdesigner`)
+    const res = await developersAPI.getGrahpDevelopers()
     dispatch(actions.setDevelopers(res.data))
 }
 

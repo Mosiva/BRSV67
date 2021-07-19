@@ -11,9 +11,10 @@ import { GraphicDesignDeveloper } from './components/content/developers/GraphicD
 import MainPage from './components/content/MainPage/Main';
 import ProMassking from './components/content/ProMassKing/ProMassking'
 import { Provider } from 'react-redux';
-import store from './redux/redux-store/redux-store';
+import store from './redux/redux-store';
 import { FrontEndDeveloper } from './components/content/developers/FrontEnd/FrontEndDeveloper';
 import { DeveloperContainer } from './components/content/developers/Developer-container';
+
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
               <Route path='/MainPage' component={MainPage} />
               <Route path='/direction' render={() => <Direction />} />
 
-              <Route path='/developers' render={() => <DeveloperContainer />} />
+              <Route path='/developers' render={() => <DeveloperContainer 
+              />} />
               <Route path='/frontenddeveloper' render={() => <FrontEndDeveloper />} />
               <Route path='/testerdeveloper' render={() => <TesterDeveloper />} />
               <Route path='/backenddeveloper' render={() => <BackEndDeveloper />} />

@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { getDevelopers } from '../../../redux/redux-store/developers-reducer'
+import { getDevelopers } from '../../../redux/developers-reducer'
 import { Card, ListGroup, CardDeck } from 'react-bootstrap';
-import { getDevelopersReselect } from './Developer-selector';
+import { getDevelopersReselect } from '../../../redux/Developer-selector';
 
 export const DeveloperContainer = () => {
 
