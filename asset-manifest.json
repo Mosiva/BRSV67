@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/BRSV67/static/css/main.ef48b33d.chunk.css",
-    "main.js": "/BRSV67/static/js/main.3ce43517.chunk.js",
-    "main.js.map": "/BRSV67/static/js/main.3ce43517.chunk.js.map",
-    "runtime-main.js": "/BRSV67/static/js/runtime-main.c3e02efb.js",
-    "runtime-main.js.map": "/BRSV67/static/js/runtime-main.c3e02efb.js.map",
+    "main.css": "/BRSV67/static/css/main.344501cf.chunk.css",
+    "main.js": "/BRSV67/static/js/main.b8b0788c.chunk.js",
+    "main.js.map": "/BRSV67/static/js/main.b8b0788c.chunk.js.map",
+    "runtime-main.js": "/BRSV67/static/js/runtime-main.706151dd.js",
+    "runtime-main.js.map": "/BRSV67/static/js/runtime-main.706151dd.js.map",
     "static/css/2.1e883d86.chunk.css": "/BRSV67/static/css/2.1e883d86.chunk.css",
-    "static/js/2.910517d1.chunk.js": "/BRSV67/static/js/2.910517d1.chunk.js",
-    "static/js/2.910517d1.chunk.js.map": "/BRSV67/static/js/2.910517d1.chunk.js.map",
-    "static/js/3.fa644d77.chunk.js": "/BRSV67/static/js/3.fa644d77.chunk.js",
-    "static/js/3.fa644d77.chunk.js.map": "/BRSV67/static/js/3.fa644d77.chunk.js.map",
+    "static/js/2.69bcac01.chunk.js": "/BRSV67/static/js/2.69bcac01.chunk.js",
+    "static/js/2.69bcac01.chunk.js.map": "/BRSV67/static/js/2.69bcac01.chunk.js.map",
+    "static/js/3.17f194ff.chunk.js": "/BRSV67/static/js/3.17f194ff.chunk.js",
+    "static/js/3.17f194ff.chunk.js.map": "/BRSV67/static/js/3.17f194ff.chunk.js.map",
     "index.html": "/BRSV67/index.html",
     "static/css/2.1e883d86.chunk.css.map": "/BRSV67/static/css/2.1e883d86.chunk.css.map",
-    "static/css/main.ef48b33d.chunk.css.map": "/BRSV67/static/css/main.ef48b33d.chunk.css.map",
-    "static/js/2.910517d1.chunk.js.LICENSE.txt": "/BRSV67/static/js/2.910517d1.chunk.js.LICENSE.txt",
+    "static/css/main.344501cf.chunk.css.map": "/BRSV67/static/css/main.344501cf.chunk.css.map",
+    "static/js/2.69bcac01.chunk.js.LICENSE.txt": "/BRSV67/static/js/2.69bcac01.chunk.js.LICENSE.txt",
     "static/media/BDdirection.659410b3.png": "/BRSV67/static/media/BDdirection.659410b3.png",
     "static/media/Ddirection.32aa6641.jpg": "/BRSV67/static/media/Ddirection.32aa6641.jpg",
     "static/media/FRdirection.e0483dd0.png": "/BRSV67/static/media/FRdirection.e0483dd0.png",
@@ -26,10 +26,10 @@
     "static/media/all.min.css": "/BRSV67/static/media/fa-solid-900.efbd5d20.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3e02efb.js",
+    "static/js/runtime-main.706151dd.js",
     "static/css/2.1e883d86.chunk.css",
-    "static/js/2.910517d1.chunk.js",
-    "static/css/main.ef48b33d.chunk.css",
-    "static/js/main.3ce43517.chunk.js"
+    "static/js/2.69bcac01.chunk.js",
+    "static/css/main.344501cf.chunk.css",
+    "static/js/main.b8b0788c.chunk.js"
   ]
 }
